@@ -14,10 +14,10 @@ public class Zeichenklassifikator {
 		if (z>= '0' && z<= '9') {
 			ausgabe = "Ziffer";
 		}
-		else if ('A' <= z && z>='Z') {
+		else if ('A' <= z && z<='Z') {
 			ausgabe = "Großbuchstabe";
 		}
-		else if('a' <= z && z >= 'z') {
+		else if('a' <= z && z <= 'z') {
 			ausgabe = "Kleinbuchstabe";
 		}
 		else {
